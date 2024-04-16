@@ -1,6 +1,4 @@
-function fade(){
-    window.location.href = "screen1.html";
-}
+
 function getstarted(){
     window.location.href = "getstarted.html"
 }
