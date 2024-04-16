@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+.container {
+    position: relative;
+    height: 600px; 
+    margin-top: 16%;/* or any desired height */
+  }
+  
+  .card {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    margin: 13px;
+    background-color: white;
+    height: 35%;
+    border-radius: 15px;
+  }
+  .getbtn{
+    display: grid;
+    margin: 10px;
+  }
+  button{
+    margin: 5px;
+    padding: 10px;
+    width: 110%;
+    margin-left: -10px;
+  }
+  .nobg{
+    background-color: white;
+    border: 1px solid #3D7AEF;
+    border-radius: 5PX;
+    color: #3D7AEF;
+  }
+  .bgbtn{
+    background-color: #3D7AEF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  h4{
+    color: rgba(0, 0, 0, 0.685);
+  }
+  p{
+    font-size: 13px;
+    width: 100%;
+    color: grey;
+  }
